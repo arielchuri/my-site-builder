@@ -1,5 +1,15 @@
 # Building a site from partial files
 
+
+   _____          _________.__  __        __________      .__.__       .___            
+  /     \ ___.__./   _____/|__|/  |_  ____\______   \__ __|__|  |    __| _/___________ 
+ /  \ /  <   |  |\_____  \ |  \   __\/ __ \|    |  _/  |  \  |  |   / __ |/ __ \_  __ \
+/    Y    \___  |/        \|  ||  | \  ___/|    |   \  |  /  |  |__/ /_/ \  ___/|  | \/
+\____|__  / ____/_______  /|__||__|  \___  >______  /____/|__|____/\____ |\___  >__|   
+        \/\/            \/               \/       \/                    \/    \/       
+
+
+
 The bash script _build.sh_ takes the files in _input_, merges them with the files in _partials_ and places the new files in _public_.
 
 This allows you to keep your site's head, header, and footer as separate files from the content.
@@ -28,3 +38,6 @@ sh ./build.sh --no-refresh # to process files for distribution.
 sh ./build.sh --serve # to create a server to view the site in a browser. Create a new terminal for further commands.
 sh ./build.sh --watch # to watch for changes and process them as they happen.
 
+## Information
+Copyright 2025 Ariel Churi
+MIT license (You can use this code any way you like as long as you include the license so that others may use it too.)
