@@ -1,0 +1,40 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Link to your CSS file -->
+</head>
+<header> 
+    <nav>
+      <ul>
+        <li><a href="index.html" id="navHome">Home</a></li>
+        <li><a href="about.html" id="navAbout">About</a></li>
+        <li><a href="contact.html" id="navContact">Contact</a></li>
+      </ul>
+    </nav>
+  </header><!DOCTYPE html>
+<html lang="en">
+  <body id="Home">
+    <main>
+      <h2>Index Page</h2>
+      <p>This is the main content of the page.</p>
+      <p>This is the main content of the page.</p>
+    </main>
+  </body>
+</html>
+<footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+  </footer><script>
+setInterval(() => {
+  fetch("/reload.txt")
+    .then(res => res.text())
+    .then(text => {
+      if (window.lastReload && window.lastReload !== text) {
+        location.reload();
+      }
+      window.lastReload = text;
+    });
+}, 1000);
+</script>
