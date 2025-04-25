@@ -1,6 +1,6 @@
 # Building a site from partial files
 
-
+```
    _____          _________.__  __        __________      .__.__       .___            
   /     \ ___.__./   _____/|__|/  |_  ____\______   \__ __|__|  |    __| _/___________ 
  /  \ /  <   |  |\_____  \ |  \   __\/ __ \|    |  _/  |  \  |  |   / __ |/ __ \_  __ \
@@ -9,6 +9,7 @@
         \/\/            \/               \/       \/                    \/    \/       
 
 
+```
 
 The bash script _build.sh_ takes the files in _input_, merges them with the files in _partials_ and places the new files in _public_.
 
